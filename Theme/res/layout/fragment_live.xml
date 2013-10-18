@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <LinearLayout style="@style/top_layout_style" >
+
+        <Button
+            android:id="@id/bt_showMenu"
+            style="@style/top_btn_back_style" />
+
+        <TextView
+            style="@style/top_txt_title_style"
+            android:text="@string/goLive" />
+<!-- 
+        <Button
+            style="@style/top_btn_right_style"
+            android:text="@string/search" />
+             -->
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<resources>
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+    <string-array name="desktop_list_head_strings">
+        <item>信息</item>
+        <item>计算器</item>
+        <item>比赛信息</item>
+        <item>更多</item>
+    </string-array>
+    <string-array name="desktop_list_item_info_strings">
+        <item>资讯中心</item>
+        <item>竞彩公告</item>
+    </string-array>
+    <string-array name="desktop_list_item_jishuiqi_strings">
+        <item>竞彩足球</item>
+        <item>竞彩篮球</item>
+        <item>选彩记录</item>
+    </string-array>
+    <string-array name="desktop_list_item_bisai_info_strings">
+        <item>受注赛程</item>
+        <item>比分直播</item>
+        <item>赛果开奖</item>
+    </string-array>
+    <string-array name="desktop_list_item_genduo_strings">
+        <item>地图</item>
+        <item>反馈</item>
+        <item>邀请</item>
+        <item>关于</item>
+        
+    </string-array>
+
+</resources>

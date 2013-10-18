@@ -1,0 +1,64 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+ <!-- 顶布局 -->
+    <style name="top_layout_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/top_bg</item>
+    </style>
+    <!-- 顶布局_左按钮 -->
+     <style name="top_btn_back_style">
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/top_btn_back_selector</item>
+    </style>
+    <!-- 顶布局_中间的title -->
+     <style name="top_txt_title_style">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxEms">8</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">1sp</item>
+    </style>
+     <!-- 顶布局_右按钮 -->
+     <style name="top_btn_right_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/top_btn_right_selector</item>
+        <item name="android:layout_marginRight">33sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">14sp</item>
+        <item name="android:paddingBottom">14sp</item>
+        <item name="android:paddingLeft">38sp</item>
+        <item name="android:paddingRight">38sp</item>
+    </style>
+    
+</resources>

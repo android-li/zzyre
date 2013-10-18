@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">Theme</string>
+    
+     <string name="loadTitle">正在更新数据</string>
+    <string name="LoadContent">请稍候……</string>
+    <string name="net_error">网络连接失败，请检查是否有可用的网络</string>
+
+    <string name="tab_view1">前瞻</string>
+    <string name="tab_view2">资讯</string>
+    <string name="tab_view3">数据</string>
+    <string name="tab_view4">战报</string>
+    <string name="tab_view5">推荐</string>
+    
+     <string name="goInfo">资讯中心</string>
+     <string name="goNotic">竞彩公告</string>
+     <string name="goSoccer">竞彩足球</string>
+     <string name="goBask">竞彩篮球</string>
+     <string name="goSelect">选彩记录</string>
+     <string name="goShouzhu">受注赛程</string>
+     <string name="goLive">比分直播</string>
+     <string name="goResult">赛果开奖</string>
+     <string name="goMap">地图</string>
+     <string name="goFeedback">反馈</string>
+     <string name="goInivte">邀请</string>
+     <string name="goAbout">关于</string>
+     
+    <string name="accountInfo">受注赛程</string>
+    <string name="downloadManager">同奖回查</string>
+    <string name="feedback">意见反馈</string>
+    <string name="search">关于</string>
+</resources>
