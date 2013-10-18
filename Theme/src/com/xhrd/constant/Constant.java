@@ -1,6 +1,6 @@
 package com.xhrd.constant;
 
-
+//+s
 public interface Constant {
 	public final static int SUCCESS = 00000000;
 	public final static int FAILED = 00000001;
